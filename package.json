@@ -1,0 +1,24 @@
+{
+  "name": "nextjs-route-generator",
+  "version": "1.0.0",
+  "description": "A CLI tool to generate Next.js routes",
+  "main": "next-generate.js",
+  "bin": {
+    "next-generate": "./next-generate.js"
+  },
+  "keywords": [
+    "nextjs",
+    "cli",
+    "generator",
+    "routes"
+  ],
+  "author": "AbdelMonaam Aouini",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "fs-extra": "^10.1.0",
+    "ora": "^5.4.1",
+    "path": "^0.12.7",
+    "yargs": "^16.2.0"
+  }
+}
