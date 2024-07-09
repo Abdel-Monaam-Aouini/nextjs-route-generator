@@ -48,7 +48,7 @@ const generateRoute = async (route) => {
       const pageContent = `import React from 'react';
 
 const Page = () => {
-  return <div>Welcome to ${route} page</div>;
+  return (<div>Welcome to ${route} page</div>);
 };
 
 export default Page;`;
@@ -66,10 +66,12 @@ export default Page;`;
 const Layout = ({ children }${
         extensions.layout === "tsx" ? ": {children: ReactNode}" : ""
       }) => {
-  return <div>
-    <h1>Layout for ${route}</h1>
-    {children}
-  </div>;
+  return (
+    <div>
+      <h1>Layout for ${route}</h1>
+      {children}
+    </div>
+    );
 };
 
 export default Layout;`;

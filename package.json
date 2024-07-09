@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A CLI tool to generate Next.js routes",
   "main": "next-generate.js",
+  "scripts": {
+    "test": "jest"
+  },
   "bin": {
     "next-generate": "next-generate.js"
   },
@@ -24,5 +27,8 @@
     "ora": "^5.4.1",
     "path": "^0.12.7",
     "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
