@@ -15,7 +15,7 @@
   "author": "Monaam <clemonaam@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator"
+    "url": "git+https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator.git"
   },
   "license": "MIT",
   "dependencies": {
