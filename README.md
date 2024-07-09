@@ -1,4 +1,3 @@
-```markdown
 # Next.js Route Generator
 
 A CLI tool to generate routes for Next.js projects.
