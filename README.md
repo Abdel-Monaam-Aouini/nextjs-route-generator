@@ -10,7 +10,7 @@ You can install the CLI globally using npm:
 npm install -g nextjs-route-generator
 ```
 
-## Usage
+## Usage 
 
 To generate a route, use the `next-generate` command followed by the route path. You can also specify which files to create using the flags.
 
