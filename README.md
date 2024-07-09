@@ -63,4 +63,3 @@ The tool automatically determines whether your project is using TypeScript or Ja
 ## License
 
 MIT
-```
