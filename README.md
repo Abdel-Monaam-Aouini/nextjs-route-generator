@@ -1,6 +1,6 @@
 # Next.js Route Generator
 
-A CLI tool to generate routes for Next.js projects.
+A CLI tool to generate `pages/layouts/routes` for Next.js projects.
 
 ## Installation
 
@@ -36,7 +36,7 @@ pages/
 You can specify which files to generate using the flags:
 - `-p` for `page.tsx` or `page.jsx`
 - `-l` for `layout.tsx` or `layout.jsx`
-- `-f` for `route.ts` or `route.js`
+- `-r` for `route.ts` or `route.js`
 
 For example, to generate only `page.tsx` and `layout.tsx`:
 
