@@ -17,7 +17,7 @@ To generate a route, use the `next-generate` command followed by the route path.
 ### Generate a Route with All Files
 
 ```bash
-next-generate "posts/[id]" -p -l -f
+next-generate "posts/[id]" -p -l -r
 ```
 
 This will create the following structure:
