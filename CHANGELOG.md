@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/compare/v1.2.0...v1.3.0) (2024-07-10)
+
+
+### Features
+
+* bump @semantic-release/changelog from 6.0.2 to 6.0.3 ([#3](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/issues/3)) ([b491742](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/commit/b491742c03dcc161cea09b804650ee302dbaacff))
+* bump @semantic-release/release-notes-generator from 11.0.7 to 14.0.1 ([#8](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/issues/8)) ([0d70a65](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/commit/0d70a6579489e739b7a8281b467d491a14ec921c))
+* bump yargs from 16.2.0 to 17.7.2 ([#2](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/issues/2)) ([16c2f99](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/commit/16c2f995a279b3e699b74d7bcf423bf82b1d4bc6))
+
 # [1.2.0](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/compare/v1.1.0...v1.2.0) (2024-07-10)
 
 
