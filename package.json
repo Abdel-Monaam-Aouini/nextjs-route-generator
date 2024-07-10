@@ -26,7 +26,7 @@
     "fs-extra": "^11.2.0",
     "ora": "^5.4.1",
     "path": "^0.12.7",
-    "yargs": "^16.2.0"
+    "yargs": "^17.7.2"
   },
   "devDependencies": {
     "jest": "^29.7.0",
