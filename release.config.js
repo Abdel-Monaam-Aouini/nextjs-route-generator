@@ -14,12 +14,7 @@ module.exports = {
     [
       "@semantic-release/git",
       {
-        assets: [
-          "CHANGELOG.md",
-          "dist/**",
-          "package.json",
-          "package-lock.json",
-        ],
+        assets: ["CHANGELOG.md", "package.json", "package-lock.json"],
         message:
           "chore(release): set version to ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
       },
