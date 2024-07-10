@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/compare/v1.1.0...v1.2.0) (2024-07-10)
+
+
+### Features
+
+* bump fs-extra from 10.1.0 to 11.2.0 ([#4](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/issues/4)) ([5593525](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/commit/5593525b723a0e2ee7c4729885e83fade7da8b20))
+
 # [1.1.0](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/compare/v1.0.3...v1.1.0) (2024-07-10)
 
 
