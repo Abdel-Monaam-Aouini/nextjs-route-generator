@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/compare/v1.3.0...v1.3.1) (2024-07-11)
+
+
+### Bug Fixes
+
+* enhancement ([#9](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/issues/9)) ([1cae7fd](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/commit/1cae7fdc302a73045f9b6121ff14a767058ad3c0))
+
 # [1.3.0](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/compare/v1.2.0...v1.3.0) (2024-07-10)
 
 
