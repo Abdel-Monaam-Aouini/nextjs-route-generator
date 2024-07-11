@@ -6,6 +6,7 @@ const yargs = require("yargs");
 const chalk = require("chalk");
 const ora = require("ora");
 const { getFileExtension } = require("./file-extension");
+const { page, layout, routeContent } = require("./content");
 
 const argv = yargs
   .command("generate <route>", "Generate a new route", {
@@ -45,13 +46,7 @@ const generateRoute = async (route) => {
 
     if (argv.p) {
       const pagePath = path.join(routePath, `page.${extensions.page}`);
-      const pageContent = `import React from 'react';
-
-const Page = () => {
-  return (<div>Welcome to ${route} page</div>);
-};
-
-export default Page;`;
+      const pageContent = page(route);
 
       fs.writeFileSync(pagePath, pageContent);
       console.log(chalk.green(`Created: ${pagePath}`));
@@ -59,22 +54,7 @@ export default Page;`;
 
     if (argv.l) {
       const layoutPath = path.join(routePath, `layout.${extensions.layout}`);
-      const layoutContent = `import React ${
-        extensions.layout === "tsx" ? ", {ReactNode}" : ""
-      } from 'react';
-
-const Layout = ({ children }${
-        extensions.layout === "tsx" ? ": {children: ReactNode}" : ""
-      }) => {
-  return (
-    <div>
-      <h1>Layout for ${route}</h1>
-      {children}
-    </div>
-    );
-};
-
-export default Layout;`;
+      const layoutContent = layout(extensions.layout, route);
 
       fs.writeFileSync(layoutPath, layoutContent);
       console.log(chalk.green(`Created: ${layoutPath}`));
@@ -82,11 +62,7 @@ export default Layout;`;
 
     if (argv.r) {
       const routeTsPath = path.join(routePath, `route.${extensions.route}`);
-      const routeTsContent = `import { NextResponse } from 'next/server';
-
-export async function GET() {
-    return NextResponse.json({ route: "${route}" });
-};`;
+      const routeTsContent = routeContent(route);
 
       fs.writeFileSync(routeTsPath, routeTsContent);
       console.log(chalk.green(`Created: ${routeTsPath}`));
