@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/compare/v1.4.0...v1.5.0) (2024-07-24)
+
+
+### Features
+
+* add throwing and validations ([#11](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/issues/11)) ([2d8f5ac](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/commit/2d8f5ace8507937512bbcf51aa5a188e4a52f6f5))
+
 # [1.4.0](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/compare/v1.3.1...v1.4.0) (2024-07-24)
 
 
