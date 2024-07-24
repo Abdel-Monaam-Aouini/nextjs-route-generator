@@ -3,7 +3,11 @@ const path = require("path");
 const { execSync } = require("child_process");
 
 const runCLI = (args) => {
-  execSync(`node ./next-generate.js ${args}`, { stdio: "inherit" });
+  try {
+    execSync(`node ./next-generate.js ${args}`, { stdio: "inherit" });
+  } catch (error) {
+    console.error("Error running CLI:", error);
+  }
 };
 
 const cleanUp = (dir) => {
