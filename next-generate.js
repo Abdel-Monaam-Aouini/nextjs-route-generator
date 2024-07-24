@@ -91,7 +91,7 @@ const generateRoute = async (route) => {
       const routeTsPath = path.join(routePath, `route.${extensions.route}`);
       const routeTsContent = routeContent(route);
 
-      if (fs.existsSync(layoutPath)) {
+      if (fs.existsSync(routeTsPath)) {
         console.warn(chalk.bgYellow(`Already Created: ${routeTsPath} !`));
       } else {
         fs.writeFileSync(routeTsPath, routeTsContent);
@@ -118,4 +118,5 @@ try {
   generateRoute(route);
 } catch (error) {
   console.error(chalk.red(error.message));
+  process.exit(1);
 }
