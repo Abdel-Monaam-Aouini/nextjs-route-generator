@@ -17,7 +17,7 @@ To generate a route, use the `next-generate` command followed by the route path.
 ### Generate a Route with All Files
 
 ```bash
-next-generate "posts/[id]" -p -l -r
+npx next-generate "posts/[id]" -p -l -r
 ```
 
 This will create the following structure:
@@ -41,7 +41,7 @@ You can specify which files to generate using the flags:
 For example, to generate only `page.tsx` and `layout.tsx`:
 
 ```bash
-next-generate "posts/[id]" -p -l
+npx next-generate "posts/[id]" -p -l
 ```
 
 This will create the following structure:
