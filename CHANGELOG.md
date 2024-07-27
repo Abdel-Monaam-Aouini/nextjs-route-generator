@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/compare/v1.5.1...v1.6.0) (2024-07-27)
+
+
+### Features
+
+* bump @semantic-release/github from 10.1.1 to 10.1.3 ([#12](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/issues/12)) ([bc64508](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/commit/bc645085201f45cdd390a2bdd44005d09fffb44a))
+
 ## [1.5.1](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/compare/v1.5.0...v1.5.1) (2024-07-27)
 
 
