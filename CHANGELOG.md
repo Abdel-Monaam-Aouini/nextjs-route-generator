@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/compare/v1.5.0...v1.5.1) (2024-07-27)
+
+
+### Bug Fixes
+
+* clean README ([0e13765](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/commit/0e13765ffaf17179b4fa1d038a13a2684245d2db))
+
 # [1.5.0](https://github.com/Abdel-Monaam-Aouini/nextjs-route-generator/compare/v1.4.0...v1.5.0) (2024-07-24)
 
 
